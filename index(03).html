@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style(3).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+     <!--Divisão para organizar a parte visual inicial-->
+    <div class="background">
+        <header>
+            
+            <div class="logo">
+                <i class="fa-regular fa-face-smile fa-bounce"></i>
+            </div>
+            <div class="cabeçario-link">
+                <li>
+                    <a href="index(01).html">Home</a>
+                </li>
+                
+                <li>
+                    <a href="index(02).html">Projetos</a>
+                </li>
+                
+                <li>
+                    <a href="index(03).html">Contato</a>
+                </li>
+            </div>
+        </header>
+     <!--Fórmulário de contato-->
+      <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Fórmulário de Clientes</b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="LabelInput">Nome completo</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="LabelInput">Email</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone" class="LabelInput">Telefone</label>
+                    </div>
+                    <br>
+                    <!--Definir Sexo-->
+                    <p>Sexo:</p>
+                    <input type="radio" id="feminino" name="sexo" value="feminino" required>
+                    <label for="feminino">Feminino</label><br>
+                    <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="outro" name="sexo" value="outro" required>
+                    <label for="outro">Outro</label>
+                    <br><br>
+                    <!--Ultimas perguntas do fórmulário-->
+                    <label for="data nascimento"><b>Data de nascimento:</b></label>
+                    <input type="date" name="data nascimento" id="data_nascimento"  required>
+                   
+                    <br><br><br>    
+                    <div class="inputBox">
+                        <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                        <label for="cidade" class="LabelInput">Cidade</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">    
+                        <input type="text" name="estado" id="estado" class="inputUser" required>
+                        <label for="estado" class="LabelInput">Estado</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                        <label for="endereco" class="LabelInput">Endereço</label>
+                    </div>
+                    <br><br>
+                                        
+            </fieldset>
+        </form>
+      </div>
+      <!--Texto informativo-->
+      <main class="geral">
+        <div class="textos">
+            <h2>Se tiver interesse nos meus serviços</h2>
+            <h3>Preencha o fórmulário a seguir</h3>
+            <div class="seta"><i class="fa-solid fa-arrow-right fa-beat"></i></div>
+        </div>
+        
+        <!--Redes-->
+        <div class="redes">
+        <div class="caixa">
+            <div class="icone instagram">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+         <ol> <!--Lista-->
+            <a href="https://www.instagram.com/rubens.elisei/"><p>Instagram</p></a>
+        </div>
+        <div class="caixa">
+            <div class="icone git">
+                <ion-icon name="logo-github"></ion-icon>
+            </div>
+            <a href="https://github.com/RubensElisei"><p>GitHub</p></a>
+        </div>
+        <div class="caixa">
+            <div class="icone Linkedin">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+                <a href="https://www.linkedin.com/in/rubens-elisei-868639213/"><p>Linkedin</p></a>
+         </ol><!--Lista-->
+        </div>
+        <div class="redessociais">
+            <h5>Redes sociais:</h5>
+        </div>
+    </div>
+    </main>
+    <!--Organização da parte de baixo (rodapé)-->
+    <flooter class="flooter">
+        <i class="fa-solid fa-globe"></i>
+        <h3>Feito por Rubens Elisei</h3>
+    </flooter>
+</body>
+</html>
